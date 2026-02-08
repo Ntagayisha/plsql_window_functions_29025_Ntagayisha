@@ -6,7 +6,7 @@
 - Student ID: 29025  
 - Course: INSY 8311 – Database Development with PL/SQL  
 - Instructor: Eric Maniraguha  
-- Group: A  
+- Group: B 
 
 ---
 
@@ -22,7 +22,8 @@ Customers and Products are connected through the Sales table using foreign keys.
 
 ### ER Diagram
 ![ER Diagram <img width="651" height="548" alt="my ER DIAGRAM VIEW" src="https://github.com/user-attachments/assets/fd3fbfca-88da-46a0-a256-d4af819796e5" />  
-)
+) OR ![MY ER DIAGRAM](https://github.com/user-attachments/assets/f10dad40-b829-45e5-bf93-56ad8a4ffc71)
+
 
 ---
 
@@ -39,7 +40,8 @@ SQL JOINs were used to combine data from multiple tables and analyze relationshi
 ### 1. Ranking Window Functions
 This query ranks customers based on their total spending using the RANK() window function.
 
-![Ranking Customers](screenshots/rank_customers.png)
+![Ranking Customers] ![RANK 1 PL](https://github.com/user-attachments/assets/d464d16c-63d3-4780-a3af-c9ed52f575aa)
+
 
 This helps identify the highest-value customers for business analysis.
 
@@ -48,7 +50,7 @@ This helps identify the highest-value customers for business analysis.
 ### 2. Aggregate Window Functions
 This query calculates a running total of sales quantities over time using the SUM() window function.
 
-![Running Total](screenshots/running_total.png)
+![Running Total]![AGGREGATES 2 PL](https://github.com/user-attachments/assets/308f0e8e-504a-4e5e-9de6-b5246622b4bc)
 
 It shows how total sales accumulate progressively as time passes.
 
@@ -57,7 +59,8 @@ It shows how total sales accumulate progressively as time passes.
 ### 3. Navigation Window Functions
 This query uses the LAG() function to compare current sales with previous sales.
 
-![LAG Function](screenshots/lag_function.png)
+![LAG Function]![PRODUCT COMPARISON 4 PL](https://github.com/user-attachments/assets/5357716c-2310-4c43-aee5-e4f6ef4c3696)
+
 
 It helps analyze changes in sales between different time periods.
 
@@ -66,7 +69,8 @@ It helps analyze changes in sales between different time periods.
 ### 4. Distribution Window Functions
 This query divides customers into four groups using the NTILE(4) function.
 
-![NTILE Function](screenshots/ntile_customers.png)
+![NTILE Function]![QUARTILES 3 PL](https://github.com/user-attachments/assets/0da0da58-46dd-4315-bd04-3ffae86c55d4)
+
 
 Customer segmentation supports targeted marketing and strategic planning.
 
